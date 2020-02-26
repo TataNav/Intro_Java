@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Problem10 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Sample input: ");
+		System.out.print("Sample input: ");
 		int n = scanner.nextInt();
-		int fib_num0 = 0;
+		int fib_num0 = 1;
 		int fib_num1 = 1;
 		int current_fib_num = 0;
 		int i = 3;
